@@ -5,7 +5,7 @@
   "main": "./lib/init",
   "version": "0.1.1",
   "description": "Linter plugin for CoDScript, using codscriptier -l",
-  "repository": "https://github.com/Ingramz/linter-codscriptizer",
+  "repository": "https://github.com/AtomLinter/linter-codscriptizer",
   "license": "MIT",
   "engines": {
     "atom": ">0.50.0"
