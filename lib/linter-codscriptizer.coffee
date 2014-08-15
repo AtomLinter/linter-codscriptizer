@@ -19,15 +19,13 @@ class LinterCodscriptizer extends Linter
          '(?<line>[0-9]+)+:(?<col>[0-9]+)+ to (?<lineEnd>[0-9]+)+:' +
          '(?<colEnd>[0-9]+)+ (?<message>.+)'
 
-  observableExecPath: 'linter-codscriptizer.codscriptizerExecutablePath'
-
   constructor: (editor) ->
     super(editor)
 
-    atom.config.observe observableExecPath, =>
-      @executablePath = atom.config.get observableExecPath
+    atom.config.observe 'linter-codscriptizer.codscriptizerExecutablePath', =>
+      @executablePath = atom.config.get 'linter-codscriptizer.codscriptizerExecutablePath'
 
   destroy: ->
-    atom.config.unobserve observableExecPath
+    atom.config.unobserve 'linter-codscriptizer.codscriptizerExecutablePath'
 
 module.exports = LinterCodscriptizer
