@@ -4,7 +4,7 @@ Linter = require "#{linterPath}/lib/linter"
 class LinterCodscriptizer extends Linter
   # The syntax that the linter handles. May be a string or
   # list/tuple of strings. Names should be all lowercase.
-  @syntax: ['source.c']
+  @syntax: ['source.gsc']
 
   # A string, list, tuple or callable that returns a string, list or tuple,
   # containing the command line (with arguments) used to lint.
