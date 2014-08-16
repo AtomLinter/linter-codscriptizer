@@ -2,7 +2,6 @@
 =========================
 
 This package will lint your `.gsc` opened files in Atom through [codscriptizer -l](https://github.com/Ingramz/codscriptizer).
-Currently there is no CoDScript syntax highlighter for Atom, please use C syntax highlighting for time being.
 
 ## Installation
 
