@@ -15,3 +15,6 @@ You can configure linter-codscriptizer by editing ~/.atom/config.cson (choose Op
 'linter-codscriptizer':
   'codscriptizerExecutablePath': null # CoDScriptizer path.
 ```
+
+## Donation
+[![Share the love!](https://chewbacco-stuff.s3.amazonaws.com/donate.png)](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=KXUYS4ARNHCN8)
